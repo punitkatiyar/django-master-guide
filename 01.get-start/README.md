@@ -1,4 +1,4 @@
-# Web Development Fundamentals
+## Web Development Fundamentals
 
 - Client–Server architecture
 - HTTP/HTTPS
@@ -9,3 +9,14 @@
 - URL, domain, hosting
 - REST architecture basics
 - MVC vs MVT
+
+## Django Introduction
+
+- What is Django?
+- Django architecture
+- Django features
+- Django vs Flask/FastAPI
+- Django project structure
+- Django applications
+- Django development workflow
+- Django versions and LTS concepts
