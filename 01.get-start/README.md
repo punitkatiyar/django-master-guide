@@ -20,3 +20,16 @@
 - Django applications
 - Django development workflow
 - Django versions and LTS concepts
+
+## Environment Setup
+
+- Python installation
+- Virtual environments
+- pip
+- Django installation
+- Creating a project
+- Creating an application
+- Django development server
+- settings.py
+- urls.py
+- manage.py
