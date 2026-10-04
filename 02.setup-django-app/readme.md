@@ -53,50 +53,66 @@ python -m venv myenv
 
 # Activate the environment on Windows
 venv\Scripts\activate
+```
+
+## Setup Django App
+
+```py
+pip install django
+# or
+python -m pip install django
+
+# Upgrade pip
+python -m pip install --upgrade pip
+
+# See installed packages
+pip list
+
+# Save dependencies
+pip freeze
+
+# 
+pip freeze > requirements.txt
+
+# Verify
+django-admin --version
+# or
+python -m django --version
+
+# Recommended verification
+python -m django --version
 
 ```
 
+## Creating a Django Project
 
+```py
+django-admin startproject myproject
 
+# Better development structure
+django-admin startproject myproject .
+```
+> The . means: Create the project in the current directory rather than creating another outer folder.
 
-
-
+```
+django_app/
+│
+├── venv/
+│
+├── manage.py
+│
+└── myproject/
+    ├── __init__.py
+    ├── settings.py
+    ├── urls.py
+    ├── asgi.py
+    └── wsgi.py
+```
 
 
 ```py
-mkdir django_app
-
-cd django_app
-
-python -m venv venv
-
-venv\Scripts\activate
-
-python -m pip install django
-
-django-admin startproject ecommerce .
-
 python manage.py startapp products
 
 python manage.py runserver
 ```
 
-```py
-Install Python
-     ↓
-Create Virtual Environment
-     ↓
-Activate Environment
-     ↓
-Install Django using pip
-     ↓
-Create Django Project
-     ↓
-Create Django Application
-     ↓
-Configure settings.py
-     ↓
-Configure urls.py
-     ↓
-Run Development Server
-```
