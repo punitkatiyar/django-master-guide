@@ -1,6 +1,6 @@
 # Django Setup & Project Fundamentals
 
-## Basic Setup
+## Python Installation
 
 > **python --version**
 
