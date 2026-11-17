@@ -11,3 +11,14 @@ urlpatterns = [
 ]
 
 ```
+
+
+## manage multiple app in django
+
+```py
+from blog import views as b1 
+
+urlpatterns = [
+    path('', b1.home, name='home')
+]
+```
