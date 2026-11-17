@@ -7,6 +7,6 @@ from django.http import HttpResponse
 
 # Create your View
 
-def hello(request):
+def home(request):
     return HttpResponse("hello App")
 ```
