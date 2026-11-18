@@ -9,4 +9,7 @@ from django.http import HttpResponse
 
 def home(request):
     return HttpResponse("hello App")
+
+def page(request):
+    return HttpResponse("<h1>Page App</h1>")
 ```
