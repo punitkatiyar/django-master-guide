@@ -111,6 +111,8 @@ django_app/
 
 
 ```py
+python manage.py migrate
+
 python manage.py startapp products
 
 python manage.py runserver
